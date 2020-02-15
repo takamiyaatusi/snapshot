@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>snapshotjs</title>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="snapshot.js"></script>
+	<style type="text/css">
+		textarea {
+			width: 400px;
+			height: 100px;
+			resize: none;
+		}
+	</style>
+</head>
+<body>
+	<p>改行単位で文章の履歴を保存するサンプル</p>
+	<div>
+		<textarea name="snapshot_target"></textarea>
+	</div>
+	<div>
+		<button type="button" class="backward_btn" disabled>入力取り消し</button>
+		<button type="button" class="forward_btn"  disabled>元に戻す</button>
+	</div>
+</body>
+</html>
